@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour
 {
@@ -20,6 +21,10 @@ public class GameControl : MonoBehaviour
         if (collision.CompareTag("Obstacle"))
         {
             Die();
+        }
+        if(collision.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
     public void UpdateCheckpoint(Vector2 pos)
