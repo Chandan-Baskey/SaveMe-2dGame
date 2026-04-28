@@ -2,6 +2,7 @@
 
 A fast-paced 2D platformer built in Unity, featuring smooth player movement, checkpoints, portals, camera tracking, and obstacle-based death mechanics.
 
+![image alt](https://github.com/Chandan-Baskey/BounceBall-2dGame/blob/5ebc1c05752c23425790d06c28cca0b9607e0c9f/GameView1.png)
 ---
 
 ## 📁 Project Structure
